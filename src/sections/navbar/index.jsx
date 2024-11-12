@@ -48,9 +48,9 @@ const NavItem = ({ item, isActive, onClick, colors }) => (
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        // padding: "50px",
+        // padding: "5px",
         cursor: "pointer",
-        borderRight: isActive ? `2px solid ${colors.yellow[100]}` : "none",
+        borderRight: isActive ? `1px solid ${colors.yellow[100]}` : "none",
         backgroundColor: isActive ? colors.grey[100] : "transparent",
         transition: "background-color 0.2s ease",
         "&:hover": {

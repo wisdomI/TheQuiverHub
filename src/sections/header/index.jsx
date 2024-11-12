@@ -31,7 +31,7 @@ const Header = () => {
         // backgroundColor: colors.grey[900],
         backdropFilter: "blur(10px)",
         width: "100%",
-        height: "60px",
+        // height: "60px",
         position: "fixed",
         padding: "15px",
         zIndex: 1,

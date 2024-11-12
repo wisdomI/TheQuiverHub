@@ -51,7 +51,7 @@ const NavbarContainer = ({ colors }) => (
   <Box
     sx={{
       backgroundColor: colors.grey[300],
-      width: "43px",
+      width: "46px",
       borderRadius: "0 20px 0 0",
     }}
   >
@@ -68,7 +68,7 @@ function App() {
 
   // Set document title
   useEffect(() => {
-    document.title = "The Quvier Hub";
+    document.title = "The Quiver Hub";
   }, []);
 
   return (
