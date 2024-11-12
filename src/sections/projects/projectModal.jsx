@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   Dialog,
   DialogContent,
   DialogTitle,
@@ -24,34 +25,13 @@ const ProjectModal = ({ open, onClose, project }) => {
             marginBottom: "20px",
           }}
         />
-        <Typography variant="body1">{project.description}</Typography>
-        <Typography
-          variant="body2"
-          sx={{ marginTop: "10px", color: "blue", cursor: "pointer" }}
+        <Typography variant="body1">{project.modalDescription}</Typography>
+        <Button
+          sx={{ marginTop: "10px", color: "white", cursor: "pointer" }}
           onClick={() => window.open(project.link, "_blank")}
         >
           View Project
-        </Typography>
-
-        {/* <Box
-          sx={{
-            display: "flex",
-            mt: "10px",
-          }}
-        >
-          <Typography>Tools:</Typography>
-          <Box className="tags">
-            {project.tag.map((tagImage, index) => (
-              <img
-                key={index}
-                src={tagImage}
-                alt="Tag"
-                className="tag-icon"
-                style={{ height: "20px", width: "20px" }}
-              />
-            ))}
-          </Box>
-        </Box> */}
+        </Button>
       </DialogContent>
     </Dialog>
   );

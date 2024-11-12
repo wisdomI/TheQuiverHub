@@ -16,130 +16,25 @@ import { useTheme } from "@emotion/react";
 
 const projects = [
   {
-    id: 6,
-    title: "GREENSHIFT",
+    id: 1,
+    title: "KARBAK LTD",
     description:
-      "GreenShift is a platform that facilitates direct connections between producers and consumers, aiming to streamline interactions and promote a more efficient system. By addressing key challenges in the process, GreenShift supports a balanced and sustainable environment for all parties involved.",
-    image: "greenshift.png",
-    link: "https://frontend.vercel.app/ ",
-    modalDescription: " ",
-    tag: [
-      "icons/React.svg",
-      "icons/devicon_materialui.svg",
-      "icons/CSS.svg",
-      "icons/HTML.svg",
-      "icons/GitHub.svg",
-      "icons/JavaScript.svg",
-      "icons/Node.svg",
-      "icons/react-router.svg",
-    ],
+      "The Quiver Hub is responsible for the continious management of Karbak Ltd's website and is responsible for meeting its I.T needs.",
+    image: "KARBAK.png",
+    link: "https://karbakltd.com/ ",
+    modalDescription:
+      "The Quiver Hub is responsible for the continious management of Karbak Ltd's website and is responsible for meeting its I.T needs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed sodales arcu. Phasellus suscipit nunc nulla, eget blandit nibh rhoncus sit amet. Nullam eget arcu pulvinar, commodo nisi ut, congue neque. Vestibulum pulvinar, ex ut ultrices ornare, tortor nulla sollicitudin orci, quis condimentum massa leo in mi. Nam eget justo libero. Donec eget luctus eros. Sed mollis venenatis nunc, nec finibus dolor dignissim aliquam. Nam tempus ante in enim euismod, a vulputate nulla bibendum. Sed nisi leo, facilisis in est sed, pharetra tincidunt lectus. Ut tempus vel turpis vitae imperdiet. Donec bibendum et ipsum ac laoreet. Quisque nec justo ut mi ullamcorper consequat in a est.",
   },
   {
     id: 1,
-    title: "EMMY WALKA PORTFOLIO",
+    title: "ATCO HOMES",
     description:
-      "This portfolio showcases the work of Emmy Walka, an international NFT artist renowned for his diverse digital creations. Built with vanilla JavaScript, HTML, and CSS, the website features a visually engaging layout that highlights Emmy's artistic range and innovative approach to digital art. Visitors can explore his extensive collection of NFTs, providing insight into his creative process and artistic vision.",
-    image: "emmy-walka.png",
-    link: "https://www.emmywalka.com ",
-    tag: [
-      "icons/CSS.svg",
-      "icons/HTML.svg",
-      "/icons/GitHub.svg",
-      "icons/JavaScript.svg",
-    ],
+      "The Quiver Hub is responsible for the continious management of Atco Homes' website and is responsible for meeting its I.T needs.",
+    image: "ATCO.png",
+    link: "https://atcohomes.ng/",
+    modalDescription:
+      "The Quiver Hub is responsible for the continious management of Atco Homes' website and is responsible for meeting its I.T needs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed sodales arcu. Phasellus suscipit nunc nulla, eget blandit nibh rhoncus sit amet. Nullam eget arcu pulvinar, commodo nisi ut, congue neque. Vestibulum pulvinar, ex ut ultrices ornare, tortor nulla sollicitudin orci, quis condimentum massa leo in mi. Nam eget justo libero. Donec eget luctus eros. Sed mollis venenatis nunc, nec finibus dolor dignissim aliquam. Nam tempus ante in enim euismod, a vulputate nulla bibendum. Sed nisi leo, facilisis in est sed, pharetra tincidunt lectus. Ut tempus vel turpis vitae imperdiet. Donec bibendum et ipsum ac laoreet. Quisque nec justo ut mi ullamcorper consequat in a est.",
   },
-  {
-    id: 4,
-    title: "HEALTH MANAGEMENT SYSTEM",
-    description:
-      "VitalTrack is a comprehensive app designed to monitor the wellbeing of university students. It allows users to track their health metrics, book appointments with healthcare professionals, and receive dosage reminders for medications. By providing a user-friendly platform, VitalTrack empowers students to take charge of their health and wellbeing, ensuring they stay on top of their academic and personal lives.",
-    image: "clinic-ms.png",
-    link: " https://vital-track.vercel.app/dashboard/app",
-    tag: [
-      "icons/React.svg",
-      "icons/devicon_materialui.svg",
-      "icons/CSS.svg",
-      "icons/GitHub.svg",
-      "icons/JavaScript.svg",
-      "icons/Node.svg",
-      "icons/react-router.svg",
-    ],
-  },
-  // {
-  //   id: 2,
-  //   title: "TECH1M JUNIOR LEARNING PLATFORM",
-  //   description:
-  //     "TECH1M is a dynamic learning platform for children that focuses on technology and essential digital skills. Offering interactive courses and resources, it promotes creativity, critical thinking, and problem-solving. By providing an engaging environment, TECH1M empowers kids to explore STEM subjects and fosters a love for learning, preparing them for future opportunities in a tech-driven world.",
-  //   image: "tech1m-jnr.png",
-  //   link: " ",
-  //   tag: [
-  //     "icons/React.svg",
-  //     "icons/devicon_materialui.svg",
-  //     "icons/CSS.svg",
-  //     "icons/HTML.svg",
-  //     "icons/GitHub.svg",
-  //     "icons/JavaScript.svg",
-  //     "icons/Node.svg",
-  //     "icons/react-router.svg",
-  //   ],
-  // },
-  // {
-  //   id: 7,
-  //   title: "ENGINEER EMMANUEL PORTFOLIO",
-  //   image: "EngEmmanuel.png",
-  //   description:
-  //     " Engineer Emmanuel's portfolio showcases his expertise as a mechanical engineer, highlighting his projects, skills, and accomplishments. Built with ReactJS, the portfolio features a sleek, user-friendly design that emphasizes his innovative engineering solutions and technical proficiency. Visitors can explore his work and insights, reflecting his commitment to excellence in mechanical engineering.",
-  //   link: "https://emmanuel-nine.vercel.app/",
-  //   tag: [
-  //     "icons/React.svg",
-  //     "icons/CSS.svg",
-  //     "icons/GitHub.svg",
-  //     "icons/react-router.svg",
-  //   ],
-  // },
-  // {
-  //   id: 8,
-  //   title: "MY PORTFOLIO",
-  //   image: "Newportfolio.png",
-  //   description:
-  //     " My Portfolio is a sleek, visually appealing website built with ReactJS and the MUI framework. Utilizing CSS Grid for layout, it showcases my skills, projects, and experiences in a user-friendly format. The portfolio effectively highlights my work and serves as a comprehensive representation of my professional journey.",
-  //   link: "#",
-  //   tag: [
-  //     "icons/React.svg",
-  //     "icons/CSS.svg",
-  //     "icons/GitHub.svg",
-  //     "icons/react-router.svg",
-  //   ],
-  // },
-  // {
-  //   id: 5,
-  //   title: "CHUNK FILE",
-  //   description:
-  //     "The CHUNK CSV to Excel Converter is a tool developed during my internship with the Zuri program. This project efficiently transforms CHUNK CSV files into user-friendly Excel documents, streamlining data management and analysis. With its intuitive interface, the converter simplifies the process of handling large datasets, making it easier for users to access and manipulate their data effectively.",
-  //   image: "",
-  //   link: " ",
-  //   tag: [
-  //     "icons/CSS.svg",
-  //     "icons/HTML.svg",
-  //     "icons/GitHub.svg",
-  //     "icons/JavaScript.svg",
-  //   ],
-  // },
-  // {
-  //   id: 3,
-  //   title: "MY EX PORTFOLIO",
-  //   image: "portfolio-image.png",
-  //   description:
-  //     "My Former Portfolio is a visually appealing website built with ReactJS and the MUI framework. Utilizing CSS Grid for layout, it showcases my skills, projects, and experiences in a user-friendly format, effectively representing my professional journey.",
-  //   link: "https://emmanuelodefadehan-mu.vercel.app/",
-  //   tag: [
-  //     "icons/React.svg",
-  //     "icons/devicon_materialui.svg",
-  //     "icons/CSS.svg",
-  //     "icons/GitHub.svg",
-  //     "icons/react-router.svg",
-  //   ],
-  // },
 ];
 
 const MotionBox = motion(Box);
@@ -213,13 +108,13 @@ const Projects = () => {
             >
               <Card
                 sx={{
-                  borderRadius: "25px",
+                  borderRadius: "2px",
                   backgroundColor: colors.grey[900],
                 }}
               >
                 <CardContent
                   sx={{
-                    height: isMobile ? "500px" : "420px",
+                    height: isMobile ? "330px" : "300px",
                     width: isMobile ? "250px" : "350px",
                   }}
                 >
@@ -228,8 +123,8 @@ const Projects = () => {
                     alt={project.title}
                     style={{
                       height: "150px",
-                      width: isMobile ? "200px" : "250px",
-                      borderRadius: "15px",
+                      width: isMobile ? "200px" : "300px",
+                      borderRadius: "1px",
                     }}
                   />
                   <Typography
