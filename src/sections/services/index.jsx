@@ -139,24 +139,23 @@ const Services = () => {
               <Card
                 key={index}
                 sx={{
-                  borderRadius: "15px",
                   display: "flex",
                   justifyContent: "flex-start",
                   alignItems: "top",
                   textAlign: "left",
                   height: isMobile ? "250px" : "150px",
-                  backgroundColor: colors.grey[400],
+                  // backgroundColor: colors.grey[400],
                   // border: `1px solid ${colors.grey[300]}`,
-                  width: isMobile ? "250px" : "300px",
-                  height: "350px",
+                  width: isMobile ? "250px" : "310px",
+                  height: "300px",
                 }}
               >
                 <CardContent
                   sx={{
                     display: "flex",
                     flexDirection: "column",
-                    justifyContent: isMobile ? "center" : "flex-start",
-                    alignItems: isMobile ? "center" : "flex-start",
+                    justifyContent: "flex-start",
+                    alignItems: "center",
                   }}
                 >
                   {/* <img
@@ -170,9 +169,9 @@ const Services = () => {
                   <Typography
                     variant="h6"
                     sx={{
-                      color: colors.grey[500],
+                      color: colors.yellow[100],
                       fontWeight: "900",
-                      padding: "15px 0",
+                      padding: "5px 0",
                     }}
                   >
                     {services.title}
@@ -184,7 +183,7 @@ const Services = () => {
               </Card>
             );
           })}
-          <Typography variant="body2">
+          <Typography variant="body2" p="20px">
             Let The Quiver Hub be your partner in achieving digital excellence.
             Reach out to us today to discuss how we can help you take your brand
             to the next level!
