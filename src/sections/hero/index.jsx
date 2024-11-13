@@ -79,9 +79,10 @@ const HeroSection = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
-          alignItems: isMobile ? "center" : "flex-start",
+          alignItems: "center",
           gap: 1,
           width: isMobile ? "100%" : "50%",
+          pb: "50px",
         }}
         variants={fadeIn("up", 0.2)}
         initial="hidden"
@@ -94,7 +95,7 @@ const HeroSection = () => {
             style={{
               color: `${colors.green[100]}`,
               fontWeight: "bold",
-              textAlign: "left",
+              textAlign: "center",
             }}
           >
             The Quiver Hub
@@ -106,7 +107,7 @@ const HeroSection = () => {
           sx={{
             width: isMobile ? "100%" : "100%",
             marginTop: "20px",
-            textAlign: "left",
+            textAlign: "center",
           }}
         >
           Comprehensive Digital Solutions for Business Growth At The Quiver Hub,
@@ -162,7 +163,7 @@ const HeroSection = () => {
       </MotionBox>
 
       {/* Avatar Image */}
-      <MotionBox
+      {/* <MotionBox
         variants={fadeIn("up", 0.2)}
         initial="hidden"
         whileInView={"show"}
@@ -183,7 +184,7 @@ const HeroSection = () => {
             width: "100%",
           }}
         />
-      </MotionBox>
+      </MotionBox> */}
     </MotionBox>
   );
 };
