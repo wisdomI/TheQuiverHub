@@ -85,7 +85,7 @@ const CeoMessage = () => {
           padding: "10px 40px",
         }}
       >
-        I’m Ifeoluwa Aquila Odefadehan, the CEO and Group Managing Director of
+        I’m Ifeoluwa Aquila Odefadehan, the CEO and GENERAL MANAGING DIRECTOR of
         The Quiver Hub. Leading a team of dedicated professionals, I am
         committed to helping businesses harness the power of digital solutions
         to reach new heights. With a background in Computer Science and a

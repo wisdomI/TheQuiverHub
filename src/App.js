@@ -5,6 +5,7 @@ import { ColorModeContext, tokens, useMode } from "./theme";
 import { motion, useAnimation, useInView, useScroll } from "framer-motion";
 import { useEffect, useRef } from "react";
 
+import Carousel from "./sections/carousel";
 import CeoMessage from "./sections/testimonial";
 import ContactSection from "./sections/contact";
 import Header from "./sections/header";
@@ -50,9 +51,9 @@ const MainLayout = ({ children, colors }) => (
 const NavbarContainer = ({ colors }) => (
   <Box
     sx={{
-      backgroundColor: colors.grey[300],
+      // backgroundColor: colors.grey[300],
       width: "46px",
-      borderRadius: "0 20px 0 0",
+      // borderRadius: "0 20px 0 0",
     }}
   >
     <Navbar />
@@ -87,6 +88,7 @@ function App() {
             <Header />
             <HeroSection />
             <Projects />
+            <Carousel />
             <Services />
             <CeoMessage />
             <ContactSection />

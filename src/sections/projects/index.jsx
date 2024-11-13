@@ -26,7 +26,7 @@ const projects = [
       "The Quiver Hub is responsible for the continious management of Karbak Ltd's website and is responsible for meeting its I.T needs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed sodales arcu. Phasellus suscipit nunc nulla, eget blandit nibh rhoncus sit amet. Nullam eget arcu pulvinar, commodo nisi ut, congue neque. Vestibulum pulvinar, ex ut ultrices ornare, tortor nulla sollicitudin orci, quis condimentum massa leo in mi. Nam eget justo libero. Donec eget luctus eros. Sed mollis venenatis nunc, nec finibus dolor dignissim aliquam. Nam tempus ante in enim euismod, a vulputate nulla bibendum. Sed nisi leo, facilisis in est sed, pharetra tincidunt lectus. Ut tempus vel turpis vitae imperdiet. Donec bibendum et ipsum ac laoreet. Quisque nec justo ut mi ullamcorper consequat in a est.",
   },
   {
-    id: 1,
+    id: 2,
     title: "ATCO HOMES",
     description:
       "The Quiver Hub is responsible for the continious management of Atco Homes' website and is responsible for meeting its I.T needs.",
@@ -34,6 +34,16 @@ const projects = [
     link: "https://atcohomes.ng/",
     modalDescription:
       "The Quiver Hub is responsible for the continious management of Atco Homes' website and is responsible for meeting its I.T needs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed sodales arcu. Phasellus suscipit nunc nulla, eget blandit nibh rhoncus sit amet. Nullam eget arcu pulvinar, commodo nisi ut, congue neque. Vestibulum pulvinar, ex ut ultrices ornare, tortor nulla sollicitudin orci, quis condimentum massa leo in mi. Nam eget justo libero. Donec eget luctus eros. Sed mollis venenatis nunc, nec finibus dolor dignissim aliquam. Nam tempus ante in enim euismod, a vulputate nulla bibendum. Sed nisi leo, facilisis in est sed, pharetra tincidunt lectus. Ut tempus vel turpis vitae imperdiet. Donec bibendum et ipsum ac laoreet. Quisque nec justo ut mi ullamcorper consequat in a est.",
+  },
+  {
+    id: 3,
+    title: "STOMFITS",
+    description:
+      "The Quiver Hub is responsible for the continious management of Stomfits website and is responsible for meeting its I.T needs.",
+    image: "STOMFIT.png",
+    link: "https://stomfits.com/",
+    modalDescription:
+      "The Quiver Hub is responsible for the continious management of Stomfits website and is responsible for meeting its I.T needs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed sodales arcu. Phasellus suscipit nunc nulla, eget blandit nibh rhoncus sit amet. Nullam eget arcu pulvinar, commodo nisi ut, congue neque. Vestibulum pulvinar, ex ut ultrices ornare, tortor nulla sollicitudin orci, quis condimentum massa leo in mi. Nam eget justo libero. Donec eget luctus eros. Sed mollis venenatis nunc, nec finibus dolor dignissim aliquam. Nam tempus ante in enim euismod, a vulputate nulla bibendum. Sed nisi leo, facilisis in est sed, pharetra tincidunt lectus. Ut tempus vel turpis vitae imperdiet. Donec bibendum et ipsum ac laoreet. Quisque nec justo ut mi ullamcorper consequat in a est.",
   },
 ];
 
