@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   Card,
   CardContent,
   Typography,
@@ -14,36 +15,71 @@ import { tokens } from "../../theme";
 import { useDialogModal } from "../../hooks/useDialougeModal";
 import { useTheme } from "@emotion/react";
 
-const projects = [
+const webProjects = [
   {
     id: 1,
     title: "KARBAK LTD",
-    description:
-      "The Quiver Hub is responsible for the continious management of Karbak Ltd's website and is responsible for meeting its I.T needs.",
+    description: "The Quiver Hub designed, developed, and now...",
     image: "KARBAK.png",
-    link: "https://karbakltd.com/ ",
+    link: "https://karbakltd.com/",
     modalDescription:
-      "The Quiver Hub is responsible for the continious management of Karbak Ltd's website and is responsible for meeting its I.T needs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed sodales arcu. Phasellus suscipit nunc nulla, eget blandit nibh rhoncus sit amet. Nullam eget arcu pulvinar, commodo nisi ut, congue neque. Vestibulum pulvinar, ex ut ultrices ornare, tortor nulla sollicitudin orci, quis condimentum massa leo in mi. Nam eget justo libero. Donec eget luctus eros. Sed mollis venenatis nunc, nec finibus dolor dignissim aliquam. Nam tempus ante in enim euismod, a vulputate nulla bibendum. Sed nisi leo, facilisis in est sed, pharetra tincidunt lectus. Ut tempus vel turpis vitae imperdiet. Donec bibendum et ipsum ac laoreet. Quisque nec justo ut mi ullamcorper consequat in a est.",
+      "The Quiver Hub designed, developed, and now manages the website for Karbak Ventures Limited, a distinguished construction company. From the ground up, we built a modern, user-friendly site that showcases Karbak Ventures' expertise and services. Our team also handles all backend configurations, ensuring that the site remains secure, efficient, and fully optimized for peak performance. This comprehensive service provides Karbak Ventures with a reliable online presence that enhances their brand visibility and supports seamless client engagement.",
   },
   {
     id: 2,
     title: "ATCO HOMES",
-    description:
-      "The Quiver Hub is responsible for the continious management of Atco Homes' website and is responsible for meeting its I.T needs.",
+    description: "The Quiver Hub successfully created and...",
     image: "ATCO.png",
     link: "https://atcohomes.ng/",
     modalDescription:
-      "The Quiver Hub is responsible for the continious management of Atco Homes' website and is responsible for meeting its I.T needs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed sodales arcu. Phasellus suscipit nunc nulla, eget blandit nibh rhoncus sit amet. Nullam eget arcu pulvinar, commodo nisi ut, congue neque. Vestibulum pulvinar, ex ut ultrices ornare, tortor nulla sollicitudin orci, quis condimentum massa leo in mi. Nam eget justo libero. Donec eget luctus eros. Sed mollis venenatis nunc, nec finibus dolor dignissim aliquam. Nam tempus ante in enim euismod, a vulputate nulla bibendum. Sed nisi leo, facilisis in est sed, pharetra tincidunt lectus. Ut tempus vel turpis vitae imperdiet. Donec bibendum et ipsum ac laoreet. Quisque nec justo ut mi ullamcorper consequat in a est.",
+      "The Quiver Hub successfully created and now manages the website for ATCO Homes, a leading real estate company. We designed an intuitive, user-friendly site that effectively showcases ATCO Homes’ properties, services, and brand vision. Through ongoing website management, we ensure optimal performance, security, and content updates that keep the site engaging and informative for prospective clients. This digital presence has enhanced ATCO Homes' visibility and streamlined their online client interactions, supporting their growth in the real estate market.",
+  },
+  {
+    id: 4,
+    title: "ENG. EMMANUEL PORTFOLIO",
+    description: "The Quiver Hub successfully created and...",
+    image: "Eng. Emmanuel.png",
+    link: "https://emmanuel-nine.vercel.app/",
+    modalDescription:
+      "The Quiver Hub created to content that forms the subject portfolio. The Quiver Hub also collaborated development-wise in birthing the portfolio. Engineer Emmanuel's portfolio showcases his expertise as a mechanical engineer, highlighting his projects, skills, and accomplishments. Built with ReactJS, the portfolio features a sleek, user-friendly design that emphasizes his innovative engineering solutions and technical proficiency. Visitors can explore his work and insights, reflecting his commitment to excellence in mechanical engineering",
   },
   {
     id: 3,
     title: "STOMFITS",
-    description:
-      "The Quiver Hub is responsible for the continious management of Stomfits website and is responsible for meeting its I.T needs.",
+    description: "The Quiver Hub not only manages the backend...",
     image: "STOMFIT.png",
     link: "https://stomfits.com/",
     modalDescription:
-      "The Quiver Hub is responsible for the continious management of Stomfits website and is responsible for meeting its I.T needs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed sodales arcu. Phasellus suscipit nunc nulla, eget blandit nibh rhoncus sit amet. Nullam eget arcu pulvinar, commodo nisi ut, congue neque. Vestibulum pulvinar, ex ut ultrices ornare, tortor nulla sollicitudin orci, quis condimentum massa leo in mi. Nam eget justo libero. Donec eget luctus eros. Sed mollis venenatis nunc, nec finibus dolor dignissim aliquam. Nam tempus ante in enim euismod, a vulputate nulla bibendum. Sed nisi leo, facilisis in est sed, pharetra tincidunt lectus. Ut tempus vel turpis vitae imperdiet. Donec bibendum et ipsum ac laoreet. Quisque nec justo ut mi ullamcorper consequat in a est.",
+      "The Quiver Hub not only manages the backend for Stomfits but also oversees their digital marketing and social media strategies. Our backend management ensures a secure, high-performing platform for Stomfits' e-commerce operations, while our digital marketing and social media efforts drive brand visibility and engagement. We create targeted marketing campaigns, manage content across social platforms, and engage with Stomfits’ audience to boost online presence and customer loyalty. This comprehensive approach supports Stomfits in building a consistent, impactful brand identity and an effortless shopping experience for their customers.",
+  },
+];
+
+const smDigitalProjects = [
+  {
+    id: 3,
+    title: "STOMFITS SOCIALS",
+    description:
+      "The Quiver Hub not only manages the backend for Stomfits but also oversees their digital marketing and social media strategies...",
+    image: "Stomfits-socials.png",
+    link: "https://stomfits.com/",
+    modalDescription:
+      "The Quiver Hub not only manages the backend for Stomfits but also oversees their digital marketing and social media strategies. Our backend management ensures a secure, high-performing platform for Stomfits' e-commerce operations, while our digital marketing and social media efforts drive brand visibility and engagement. We create targeted marketing campaigns, manage content across social platforms, and engage with Stomfits’ audience to boost online presence and customer loyalty. This comprehensive approach supports Stomfits in building a consistent, impactful brand identity and an effortless shopping experience for their customers.",
+  },
+  {
+    id: 1,
+    title: "KARBAK LTD SOCIALS",
+    description: "Responsible for Karbak Ltd's website management.",
+    image: "KARBAK.png",
+    link: "https://karbakltd.com/",
+    modalDescription: "Detailed description about Karbak Ltd project.",
+  },
+  {
+    id: 2,
+    title: "ATCO HOMES SOCIALS",
+    description: "Managed the Atco Homes website.",
+    image: "ATCO.png",
+    link: "https://atcohomes.ng/",
+    modalDescription: "Detailed description about Atco Homes project.",
   },
 ];
 
@@ -56,11 +92,14 @@ const Projects = () => {
 
   const [DialogComponent, openDialog] = useDialogModal(ProjectModal);
   const [selectedProject, setSelectedProject] = useState(null);
+  const [toggleState, setToggleState] = useState(1); // 1 for Web Projects, 2 for SM & Digital Marketing
 
   const handleLearnMore = (project) => {
     setSelectedProject(project);
     openDialog();
   };
+
+  const currentProjects = toggleState === 1 ? webProjects : smDigitalProjects;
 
   return (
     <MotionBox
@@ -99,6 +138,40 @@ const Projects = () => {
         >
           A list of projects we've worked on and are currently working on
         </Typography>
+
+        {/* Mini Navigation */}
+        <Box
+          sx={{
+            display: "flex",
+            gap: "10px",
+            mb: "20px",
+            justifyContent: "center",
+          }}
+        >
+          <Button
+            variant={toggleState === 1 ? "contained" : "outlined"}
+            onClick={() => setToggleState(1)}
+            sx={{
+              color: toggleState === 1 ? colors.grey[100] : colors.blue[100],
+              backgroundColor:
+                toggleState === 1 ? colors.green[100] : "inherit",
+            }}
+          >
+            Web Projects
+          </Button>
+          <Button
+            variant={toggleState === 2 ? "contained" : "outlined"}
+            onClick={() => setToggleState(2)}
+            sx={{
+              color: toggleState === 2 ? colors.grey[100] : colors.blue[100],
+              backgroundColor:
+                toggleState === 2 ? colors.green[100] : "inherit",
+            }}
+          >
+            SMM & Digital Marketing
+          </Button>
+        </Box>
+
         <Box
           sx={{
             display: "flex",
@@ -108,7 +181,7 @@ const Projects = () => {
             justifyContent: "center",
           }}
         >
-          {projects.map((project, index) => (
+          {currentProjects.map((project, index) => (
             <MotionBox
               key={index}
               sx={{
@@ -160,6 +233,7 @@ const Projects = () => {
             </MotionBox>
           ))}
         </Box>
+
         {/* Render the modal */}
         <DialogComponent project={selectedProject} />
       </MotionBox>

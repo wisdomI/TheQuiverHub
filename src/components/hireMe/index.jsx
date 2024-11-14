@@ -7,7 +7,11 @@ const HireMe = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   return (
-    <a href="#" target="_blank" rel="noopener noreferrer">
+    <a
+      href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <Button
         sx={{
           position: "fixed",

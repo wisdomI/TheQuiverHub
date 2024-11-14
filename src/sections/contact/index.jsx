@@ -1,11 +1,4 @@
-import {
-  Box,
-  Button,
-  IconButton,
-  TextField,
-  Typography,
-  useMediaQuery,
-} from "@mui/material";
+import { Box, IconButton, Typography, useMediaQuery } from "@mui/material";
 import React, { useState } from "react";
 
 import { fadeIn } from "../../variants";
@@ -119,12 +112,12 @@ const ContactSection = () => {
         viewport={{ once: false, amount: 0.7 }}
         sx={{
           display: "flex",
-          flexDirection: isMobile ? "column" : "row", // Stack vertically on mobile
+          flexDirection: isMobile ? "column" : "row",
           justifyContent: "space-around",
           alignItems: "flex-start",
           width: "100%",
           padding: isMobile ? "0 10px" : "0 50px",
-          gap: isMobile ? "30px" : "50px", // Adjust gap for mobile vs desktop
+          gap: isMobile ? "30px" : "50px",
         }}
       >
         {/* Social Buttons */}
@@ -139,7 +132,7 @@ const ContactSection = () => {
             justifyContent: "center",
             alignItems: "center",
             gap: "40px",
-            width: isMobile ? "100%" : "40%", // Adjust width for mobile and desktop
+            width: isMobile ? "100%" : "40%",
           }}
         >
           {contact.map((e) => (

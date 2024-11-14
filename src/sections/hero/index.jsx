@@ -110,12 +110,15 @@ const HeroSection = () => {
             textAlign: "center",
           }}
         >
-          Comprehensive Digital Solutions for Business Growth At The Quiver Hub,
-          we specialize in providing a wide range of digital services tailored
-          to meet the unique needs of businesses, whether they’re startups or
-          established enterprises. With a commitment to excellence and
-          innovation, we help brands achieve visibility, streamline operations,
-          and maximize their online potential.
+          <span style={{ color: `${colors.yellow[100]}`, fontStyle: "italic" }}>
+            {" "}
+            Comprehensive Digital Solutions for Business Growth.{" "}
+          </span>{" "}
+          At The Quiver Hub, we specialize in providing a wide range of digital
+          services tailored to meet the unique needs of businesses, whether
+          they’re startups or established enterprises. With a commitment to
+          excellence and innovation, we help brands achieve visibility,
+          streamline operations, and maximize their online potential.
         </Typography>
 
         {/* Social Tools */}
