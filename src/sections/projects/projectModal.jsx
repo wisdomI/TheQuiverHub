@@ -30,7 +30,7 @@ const ProjectModal = ({ open, onClose, project }) => {
           sx={{ marginTop: "10px", color: "white", cursor: "pointer" }}
           onClick={() => window.open(project.link, "_blank")}
         >
-          View Project
+          View
         </Button>
       </DialogContent>
     </Dialog>
