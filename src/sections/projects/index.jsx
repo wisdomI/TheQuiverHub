@@ -60,7 +60,7 @@ const smDigitalProjects = [
     title: "STOMFITS SOCIALS",
     description:
       "As the trusted digital partner for Stomfits, The Quiver Hub...",
-    image: "Stomfits-socials.png",
+    image: "Stomfits-logo.png",
     link: "https://stomfits.com/",
     modalDescription:
       "As the trusted digital partner for Stomfits, The Quiver Hub executed innovative marketing strategies to amplify the brand’s appeal. From launching new collections with visually striking campaigns to managing influencer collaborations, we ensured Stomfits’ modern, stylish identity was front and center. By implementing performance-driven ad strategies and creating engaging content, we contributed to consistent audience growth, enhanced sales, and strengthened the brand’s overall digital presence.",
@@ -69,8 +69,8 @@ const smDigitalProjects = [
     id: 1,
     title: "YEMITE PROPERITIES",
     description: "The Quiver Hub collaborated with Yemite Properties...",
-    image: "yemite.png",
-    link: "#",
+    image: "yemitelogo.png",
+    link: "https://www.instagram.com/yemite_properties/",
     modalDescription:
       "The Quiver Hub collaborated with Yemite Properties to enhance its online footprint and drive property inquiries. By crafting visually appealing posts and running hyper-targeted ad campaigns, we successfully connected the brand with its ideal audience. We focused on showcasing their properties’ unique value while maintaining a professional and consistent tone across all social platforms. Our efforts resulted in increased visibility, higher engagement, and measurable growth for Yemite Properties.",
   },
@@ -78,7 +78,7 @@ const smDigitalProjects = [
     id: 2,
     title: "ATCO HOMES SOCIALS",
     description: "Atco Homes partnered with The Quiver Hub to revamp its...",
-    image: "ATCO.png",
+    image: "atcologo.png",
     link: "https://atcohomes.ng/",
     modalDescription:
       "Atco Homes partnered with The Quiver Hub to revamp its digital marketing efforts and social media strategy. We developed content strategies tailored to the real estate market, highlighting Atco Homes’ exceptional properties and fostering trust with potential clients. Through consistent branding, storytelling, and data-driven ad campaigns, we not only increased online inquiries but also established Atco Homes as a top name in the real estate industry. The Quiver Hub’s expertise brought measurable growth and a professional edge to their digital presence.",
@@ -87,7 +87,7 @@ const smDigitalProjects = [
     id: 4,
     title: "FLYGRANDEST",
     description: "The Quiver Hub was contracted to handle..",
-    image: "flygrandest-socials.png",
+    image: "flygrandestlogo.png",
     link: "https://www.flygrandest.com/",
     modalDescription:
       "The Quiver Hub was contracted to handle the digital marketing and social media management for Flygrandest. Our approach was to elevate the brand’s identity through dynamic and engaging content that resonated with its vibrant audience. By implementing targeted ad campaigns, we boosted brand visibility and built an engaged community across platforms. Our performance tracking ensured continuous optimization, leading to increased reach, audience engagement, and improved conversions. Flygrandest now stands out as a brand with a bold and consistent digital presence.",
@@ -97,7 +97,7 @@ const smDigitalProjects = [
     title: "KOKO'S DELIGHT",
     description:
       "For Koko’s Delight, The Quiver Hub was tasked with creating...",
-    image: "kokosdelight-socials.png",
+    image: "kokosdelightlogo.png",
     link: "https://www.instagram.com/koko_delight_/",
     modalDescription:
       "For Koko’s Delight, The Quiver Hub was tasked with creating a captivating digital presence that reflected the brand’s cultural vibrancy. We developed interactive content, seasonal campaigns, and customer-focused promotions to increase engagement and sales. Our team also managed their advertising efforts, ensuring cost-effective strategies that delivered results. By consistently optimizing campaigns and fostering community interaction, we solidified Koko’s Delight as a standout name in the food industry.",
@@ -146,11 +146,12 @@ const Projects = () => {
           gutterBottom
           sx={{
             color: colors.yellow[100],
+            mb: "30px",
           }}
         >
           PORTFOLIO
         </Typography>
-        <Typography
+        {/* <Typography
           variant="h6"
           sx={{
             color: colors.green[100],
@@ -158,7 +159,7 @@ const Projects = () => {
           }}
         >
           A list of projects we've worked on and are currently working on
-        </Typography>
+        </Typography> */}
 
         {/* Mini Navigation */}
         <Box

@@ -114,6 +114,7 @@ const HeroSection = () => {
             {" "}
             Comprehensive Digital Solutions for Business Growth.{" "}
           </span>{" "}
+          <br />
           At The Quiver Hub, we specialize in providing a wide range of digital
           services tailored to meet the unique needs of businesses, whether
           they’re startups or established enterprises. With a commitment to

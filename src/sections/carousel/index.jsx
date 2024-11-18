@@ -21,7 +21,7 @@ const Carousel = () => {
 
   const items = [
     "/atcologo.png",
-    "/flygrandsetlogo.png",
+    "/flygrandestlogo.png",
     "/karbaklogo.jpeg",
     "/caleb-logo.png",
   ];
