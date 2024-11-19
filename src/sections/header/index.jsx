@@ -1,10 +1,7 @@
-import { Box, IconButton, Typography } from "@mui/material";
-import React, { useState } from "react";
+import { Box, IconButton } from "@mui/material";
 
 import { tokens } from "../../theme";
 import { useTheme } from "@emotion/react";
-
-// import Resume from "../../components/ResumeButton";
 
 const socials = [
   {
@@ -22,7 +19,6 @@ const socials = [
 ];
 
 const Header = () => {
-  const [hovered, setHovered] = useState(false);
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   return (

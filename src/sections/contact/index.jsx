@@ -1,5 +1,4 @@
 import { Box, IconButton, Typography, useMediaQuery } from "@mui/material";
-import React, { useState } from "react";
 
 import { fadeIn } from "../../variants";
 import { motion } from "framer-motion";
@@ -36,29 +35,8 @@ const ContactSection = () => {
   const colors = tokens(theme.palette.mode);
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Logic to handle form submission, for example, using an API to send email
-    console.log("Form data:", formData);
-  };
-
   return (
     <MotionBox
-      // variants={fadeIn("up", 0.2)}
-      // initial="hidden"
-      // whileInView={"show"}
-      // viewport={{ once: false, amount: 0.7 }}
       id="contact"
       sx={{
         backgroundColor: colors.grey[800],

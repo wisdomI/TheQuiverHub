@@ -147,7 +147,6 @@ const Services = () => {
                   // backgroundColor: colors.grey[400],
                   // border: `1px solid ${colors.grey[300]}`,
                   width: isMobile ? "250px" : "310px",
-                  height: "300px",
                 }}
               >
                 <CardContent

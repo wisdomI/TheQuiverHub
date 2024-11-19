@@ -1,20 +1,8 @@
 import { Box, Typography } from "@mui/material";
 import React, { useEffect, useRef, useState } from "react";
 
-import { motion } from "framer-motion";
 import { tokens } from "../../theme";
 import { useTheme } from "@emotion/react";
-
-// Animation variants
-const logoAnimationVariants = {
-  animate: {
-    scale: [0.8, 0.9, 0.9, 0.8],
-    rotate: [0, 45, 360, 0],
-    borderRadius: ["10%", "10%", "50%", "10%"],
-  },
-};
-
-const MotionBox = motion(Box);
 
 const navItems = [
   { id: 1, label: "About", href: "#hero" },

@@ -24,6 +24,9 @@ const Carousel = () => {
     "/flygrandestlogo.png",
     "/karbaklogo.jpeg",
     "/caleb-logo.png",
+    "/footagelogo.png",
+    "/culogo.png",
+    "/Ibpoly-logo.png",
   ];
 
   const theme = useTheme();

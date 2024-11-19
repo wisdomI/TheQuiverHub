@@ -1,45 +1,13 @@
-import { Box, IconButton, Typography, useMediaQuery } from "@mui/material";
+import { Box, Typography, useMediaQuery } from "@mui/material";
 
-import ExpandCircleDownOutlinedIcon from "@mui/icons-material/ExpandCircleDownOutlined";
 import React from "react";
 import { fadeIn } from "../../variants";
 import { motion } from "framer-motion";
 import { tokens } from "../../theme";
 import { useTheme } from "@emotion/react";
 
-// const socials = [
-//   { title: "Github", image: "/icons/GitHub.svg", link: " " },
-//   { title: "HTML", image: "/icons/HTML.svg" },
-//   { title: "CSS", image: "/icons/CSS.svg" },
-//   { title: "Node", image: "/icons/Node.svg" },
-//   { title: "React", image: "/icons/React.svg" },
-//   { title: "Javascript", image: "/icons/JavaScript.svg" },
-//   { title: "MUI", image: "/icons/devicon_materialui.svg" },
-//   { title: "Tailwind", image: "/icons/devicon_tailwindcss.svg" },
-//   { title: "Typescript", image: "/icons/devicon_typescript.svg" },
-//   { title: "Nextjs", image: "/icons/skill-icons_nextjs-light.svg" },
-// ];
-
 const MotionBox = motion(Box);
 const TypoBox = motion(Typography);
-
-const textVariant = {
-  hidden: { opacity: 0, x: -50 },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: { duration: 1.5, ease: "easeOut" },
-  },
-};
-
-const avatarVariant = {
-  hidden: { opacity: 0, scale: 0.8 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: { duration: 2, ease: "easeOut" },
-  },
-};
 
 const staggerVariant = {
   visible: {

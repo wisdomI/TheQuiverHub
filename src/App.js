@@ -2,8 +2,6 @@ import "./App.css";
 
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, tokens, useMode } from "./theme";
-import { motion, useAnimation, useInView, useScroll } from "framer-motion";
-import { useEffect, useRef } from "react";
 
 import Carousel from "./sections/carousel";
 import CeoMessage from "./sections/testimonial";
@@ -14,25 +12,8 @@ import HireMe from "./components/hireMe";
 import Navbar from "./sections/navbar";
 import Projects from "./sections/projects";
 import Services from "./sections/services";
-
-// Component imports
-
-// Custom hook for scroll animations
-const useScrollAnimation = (threshold = 0.2) => {
-  const controls = useAnimation();
-  const ref = useRef(null);
-  const inView = useInView(ref, { threshold });
-
-  useEffect(() => {
-    if (inView) {
-      controls.start("show");
-    } else {
-      controls.start("hidden");
-    }
-  }, [controls, inView]);
-
-  return { ref, controls };
-};
+import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 // Main layout component
 const MainLayout = ({ children, colors }) => (
@@ -65,7 +46,6 @@ const MotionBox = motion(Box);
 function App() {
   const [theme, colorMode] = useMode();
   const colors = tokens(theme.palette.mode);
-  const { scrollYProgress: completionProgress } = useScroll();
 
   // Set document title
   useEffect(() => {

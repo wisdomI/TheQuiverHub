@@ -1,42 +1,9 @@
-import {
-  Box,
-  Card,
-  CardContent,
-  Typography,
-  useMediaQuery,
-} from "@mui/material";
+import { Box, Typography, useMediaQuery } from "@mui/material";
 
 import { fadeIn } from "../../variants";
 import { motion } from "framer-motion";
 import { tokens } from "../../theme";
 import { useTheme } from "@emotion/react";
-
-// const testimonials = [
-//   {
-//     id: 1,
-//     name: "Susan Alphonsus",
-//     feedback:
-//       "Working with Wisdom was an absolute pleasure. His attention to detail and the creativity he brought to the project were unmatched.",
-//     role: "CEO, GreenShift",
-//     // image: "john-doe.png",
-//   },
-//   {
-//     id: 2,
-//     name: "Oluwadara Ajao",
-//     feedback:
-//       "Wisdom’s ability to solve complex problems and meet deadlines made our project a huge success. I highly recommend him!",
-//     role: "CTO, GreenShift",
-//     // image: "jane-smith.png",
-//   },
-//   {
-//     id: 3,
-//     name: "Emmy Walka",
-//     feedback:
-//       "A highly skilled developer! Wisdom was able to bring our vision to life with his exceptional frontend skills.",
-//     role: "CEO, WalkaArts",
-//     // image: "mike-johnson.png",
-//   },
-// ];
 
 const MotionBox = motion(Box);
 
