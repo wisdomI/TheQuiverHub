@@ -60,7 +60,7 @@ const smDigitalProjects = [
     title: "STOMFITS SOCIALS",
     description:
       "As the trusted digital partner for Stomfits, The Quiver Hub...",
-    image: "Stomfits-logo.png",
+    image: "stomfits-logo.png",
     link: "https://stomfits.com/",
     modalDescription:
       "As the trusted digital partner for Stomfits, The Quiver Hub executed innovative marketing strategies to amplify the brand’s appeal. From launching new collections with visually striking campaigns to managing influencer collaborations, we ensured Stomfits’ modern, stylish identity was front and center. By implementing performance-driven ad strategies and creating engaging content, we contributed to consistent audience growth, enhanced sales, and strengthened the brand’s overall digital presence.",
